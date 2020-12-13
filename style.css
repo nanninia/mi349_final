@@ -1,15 +1,74 @@
-head{
-    background-color: black;
-    color: rgb(255, 255, 255);
+header{
+    background-color: teal;
+    margin-top: 0;
+    padding: 60px;
 }
 
 body{
-    background-color: darkgray;
+    background-color: rgb(66, 66, 66);
     color: white;
+    margin-top: 0;
 }
 
-sidenav{
-    list-style-type: none;
+nav{
+    margin-top: 0;
+    float: right;
+}
+
+nav ul{
     margin: 0;
     padding: 0;
+    list-style: none;
+    display: table;
+    margin: 0 auto;
 }
+
+.skills{
+    font-size: 25pt;
+}
+
+.contacts{
+    margin: 0;
+    font-size: 25pt;
+    display: table;
+    list-style: none;
+    margin: 0 auto;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    font-size: 25pt;
+}
+
+h1{
+    text-align: center;
+    float: left;
+    font-size: xx-large;
+    margin-top: 0;
+}
+
+h2{
+    font-size:30pt;
+}
+
+h3{
+    font-size: 25pt;
+}
+p{
+    text-align: justify;
+    font-size: 25pt;
+    padding: 15px;
+}
+
+img{
+    float:left;
+}
+
+article{
+    margin-top: 50;
+    float: left;
+}
+
+
